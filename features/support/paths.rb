@@ -16,6 +16,11 @@ module NavigationHelpers
     #
     #   when /^(.*)'s profile page$/i
     #     user_profile_path(User.find_by_login($1))
+    when /the new snippet page/
+      new_snippet_path
+
+    when /the snippet list page/
+      snippets_path
 
     else
       begin
