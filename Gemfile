@@ -17,10 +17,11 @@ group :assets do
 end
 
 group :development, :test do
-  gem "cucumber-rails", "1.0.5", :group => [:development, :test]
-  gem "capybara", "1.1.1", :group => [:development, :test]
-  gem "database_cleaner", "0.6.7", :group => [:development, :test]
-  gem "rspec-rails", "2.6.1", :group => [:development, :test]
+  gem "cucumber-rails", "1.0.5"
+  gem "capybara", "1.1.1"
+  gem "database_cleaner", "0.6.7"
+  gem "rspec-rails", "2.6.1"
+  gem "mongoid-rspec", "1.4.4"
 end
 
 # Use unicorn as the web server
