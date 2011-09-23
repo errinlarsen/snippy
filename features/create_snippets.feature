@@ -1,9 +1,9 @@
-Feature: User manages snippets
-  In order to manage my code snippets
+Feature: Developer creates snippets
   As a developer
-  I want to utilize a nice GUI
+  I want to save a snippet of code
+  In order to access it later
 
-  Scenario: User add a new snippet
+  Scenario: Developer creates a new snippet
     Given I go to the new snippet page
     And I fill in "Title" with "Test Snippet"
     And I fill in "Description" with "Only a test"
